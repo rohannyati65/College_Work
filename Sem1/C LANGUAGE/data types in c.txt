@@ -1,0 +1,107 @@
+DATA TYPES :- diffrent diffrent data ko store karne k liye diffrent diffrent data types ka use karna hota he.
+
+example
+
+ int :-integer 
+example(1,2,3,4.....)
+
+ with  console output initialization
+    
+ #include<stdio.h>  standard file preproccesor
+#include<conio.h>  console file   preprocesor
+void main()   writtern type
+{
+int a;
+clrscr();
+a=23;   defination store ho chuki h int me
+printf("the value of a is %d",a);
+getch();    for hold console side
+}
+ out put the value of a is 23
+
+
+
+
+float - floating point value: a number with fractional part
+example- 2.13,4.15,3.14..............
+ with console initialization
+ #include<stdio.h>  standard file preproccesor
+#include<conio.h>  console file   preprocesor
+void main()   writtern type
+{
+
+float a;
+clrscr();
+a=3.14;   defination store ho chuki h int me
+printf("the value of a is %f",a);
+getch();    for hold console side
+}
+ out put the value of a is 3.1400000
+
+
+
+double - a double precision floating point value
+  example- 10\3= 3.3333333333333up to more  decimal places
+
+ with console initialization
+ #include<stdio.h>  standard file preproccesor
+#include<conio.h>  console file   preprocesor
+void main()   writtern type
+{
+
+double a;
+clrscr();
+a=3.33333333   defination store ho chuki h int me
+printf("the value of a is %lf",a); we can also use %g for double data types
+getch();    for hold console side
+}
+ out put the value of a is 3.1400000
+
+
+
+
+ char- a single charactor
+examples- a,b,c,d,
+
+ #include<stdio.h>  standard file preproccesor
+#include<conio.h>  console file   preprocesor
+void main()   writtern type
+{
+char a='s';
+clrscr();
+
+printf("the value of a is %c",a);
+getch();    for hold console side
+}
+ out put the value of a is s
+
+
+
+long -  long integer value
+   example 565566666543,7654345556
+   #include<stdio.h>  standard file preproccesor
+#include<conio.h>  console file   preprocesor
+void main()   writtern type
+{
+long a=676543256;
+clrscr();
+
+printf("the value of a is %ld",a);
+getch();    for hold console side
+}
+ out put the value of a is 23
+
+
+
+
+
+strings- group of charactors is called string.
+example - name, address,...
+  
+
+we have to use array using ..
+
+
+
+
+ 

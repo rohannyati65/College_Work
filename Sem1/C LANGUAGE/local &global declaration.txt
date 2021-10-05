@@ -1,0 +1,55 @@
+LOCAL VARIABLES wo hote he jinka use hum void main k baad body 
+strat hote he limite rakh dete h because har body me uska use nahi kar sakte.
+           
+  variables that are declared inside a function or block are called local variable.they cab be used only by statement that
+are inside that function or block of code.
+
+	syntax :-
+
+		int main()   (return place int use kiya h)
+		{
+		/*lacal variable declaration*/
+		int a,b
+		int c
+		} limit finished
+
+
+
+   with console declaration :-
+         #include<stdio.h>
+	  
+         int main()
+	{
+	  int a=20;
+       
+	printf("%d",a);
+          
+	return(0);
+	}
+
+   
+
+GLOBAL DECLARATION :-
+       
+         globalvariables are defined outside a function,useually on top of the program.
+           its global variable can be accessed by any function.
+
+
+    jab hum kisi value ko globaliy declare kar lete jese int a; declared ho chuka h pr defination nahi di gai h.
+        ese ager a ko print krwaya jayga to global varriable ko utha leta h...
+      
+	syntax :- 
+		 /*global variable/*
+		int g;
+     
+	with console declaration :-
+         #include<stdio.h>
+	int a =10;  
+         int main()   (body strat)
+	{
+	  
+       
+	printf("%d",a);
+          
+	return(0);
+	}

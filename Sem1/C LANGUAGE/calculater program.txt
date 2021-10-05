@@ -1,0 +1,44 @@
+ two number add program in c 
+      		
+   #include<stdio.h>
+    #include<conio.h>
+     void main()
+{
+ int a,b,c;
+  clrscr();
+   printf("enter a first value :");
+    scanf("%d",&a);
+  printf("enter second value :");
+   scanf("%d",&b);
+  c=a+b;
+  printf("the value is:%d",c);
+getch();
+}
+     
+    if we can use float add up to 2 decimal places easily we can use ..with change data type and type specifire like %f.
+
+
+
+
+   
+
+
+Q.	HOW TO PRINT CALCULATOR ON CONSOLE
+
+    	#include<stdio.h>
+	#include<conio.h>
+	void main()
+     {
+int p,t;
+float r,i;
+clrscr();
+printf("enter the principal amount:");
+scanf("%d",&p);
+printf("enter the no of years:");
+scanf("%d",&t);
+printf("enter the rate of intrest:");
+scanf("%f",&r);
+i=(p*t*r)/100;
+printf("simple intrested calculated= %f",i);
+getch();
+}
